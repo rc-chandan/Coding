@@ -1,0 +1,9 @@
+# Mac OS
+DS_Store
+
+# MVN Build dirs
+target
+build
+
+# jar files
+*.jar
