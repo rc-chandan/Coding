@@ -4,6 +4,7 @@ DS_Store
 # MVN Build dirs
 target
 build
+.mvn
 
 # jar files
 *.jar
