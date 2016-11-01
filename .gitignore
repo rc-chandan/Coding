@@ -7,3 +7,6 @@ build
 
 # jar files
 *.jar
+
+# Intellij files
+.idea
