@@ -1,0 +1,68 @@
+version: 1
+
+dn: cn=Admin,ou=groups,o=vizexperts,dc=example,dc=com
+objectClass: groupOfUniqueNames
+objectClass: top
+cn: Admin
+uniqueMember: uid=chandan,ou=users,o=vizexperts
+description: Administator accounts group
+
+dn: ou=users,o=vizexperts,dc=example,dc=com
+objectClass: organizationalUnit
+objectClass: top
+ou: users
+
+dn: uid=chandan,ou=users,o=vizexperts,dc=example,dc=com
+objectClass: inetOrgPerson
+objectClass: person
+objectClass: organizationalPerson
+objectClass: top
+cn: chandan rana
+sn: rana
+uid: chandan
+userPassword:: e3NoYX1uVTRlSTcxYmNuQkdxZU8wdDl0WHZZMXU1b1E9
+
+dn: o=vizexperts,dc=example,dc=com
+objectclass: organization
+objectclass: top
+o: vizexperts
+
+dn: uid=gaurav,ou=users,o=vizexperts,dc=example,dc=com
+objectClass: inetOrgPerson
+objectClass: person
+objectClass: organizationalPerson
+objectClass: top
+cn: Gaurav Garg
+sn: Garg
+uid: gaurav
+userPassword:: e3NoYX1uVTRlSTcxYmNuQkdxZU8wdDl0WHZZMXU1b1E9
+
+dn: dc=example,dc=com
+objectclass: top
+objectclass: domain
+dc: example
+
+dn: ou=groups,o=vizexperts,dc=example,dc=com
+objectClass: organizationalUnit
+objectClass: top
+ou: groups
+
+dn: cn=User,ou=groups,o=vizexperts,dc=example,dc=com
+objectClass: groupOfUniqueNames
+objectClass: top
+cn: User
+uniqueMember: uid=chandan,ou=users,o=vizexperts
+uniqueMember: uid=gaurav,ou=users,o=vizexperts
+uniqueMember: uid=balajee,ou=users,o=vizexperts
+description: Users group
+
+dn: uid=balajee,ou=users,o=vizexperts,dc=example,dc=com
+objectClass: inetOrgPerson
+objectClass: person
+objectClass: organizationalPerson
+objectClass: top
+cn: balajee rc
+sn: rc
+uid: balajee
+userPassword:: e3NoYX1uVTRlSTcxYmNuQkdxZU8wdDl0WHZZMXU1b1E9
+
